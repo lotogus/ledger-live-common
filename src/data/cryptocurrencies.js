@@ -576,6 +576,35 @@ const cryptocurrenciesById: { [name: string]: CryptoCurrency } = {
       }
     ]
   },
+  csc: {
+    type: "CryptoCurrency",
+    id: "ripple",
+    coinType: 144,
+    name: "CSC",
+    managerAppName: "CSC",
+    ticker: "CSC",
+    scheme: "ripple",
+    color: "#27a2db",
+    units: [
+      {
+        name: "CSC",
+        code: "CSC",
+        magnitude: 6
+      },
+      {
+        name: "drop",
+        code: "drop",
+        magnitude: 0
+      }
+    ],
+    family: "ripple",
+    explorerViews: [
+      {
+        tx: "https://explorer.casinocoin.org/tx/$hash",
+        address: "https://explorer.casinocoin.org/address/$address"
+      }
+    ]
+  },
   clubcoin: {
     type: "CryptoCurrency",
     id: "clubcoin",
